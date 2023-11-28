@@ -12,7 +12,7 @@ h2 {
 
 h3 {
   margin: 0;
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 
 h4 {
@@ -39,6 +39,7 @@ ul {
 body {
   margin: 0;
   /* background: skyblue; */
+  background-image: url(futsal.webp);
 }
 
 img {

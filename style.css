@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* common */
+h1 {
+  margin: 0;
+  /* background: yellow; */
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+  background:black;
+  color:white;
+  opacity: 0.7;
+}
+
+ul {
+  list-style: none;
+  margin: 4px 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  /* background: skyblue; */
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  max-width: 600px;
+  width:calc(100% - 64px / 2);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 32px 0;
+}
+
+
+
+/* header */
+
+header img {
+  border: 2px solid black;
+}
+
+/* message */
+.message h2 {
+  margin-top: 32px;
+}
+
+.message p {
+  margin: 32px 0;
+}
+
+/* hero */
+
+.hero {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero div {
+  flex: 1;
+}
+
+.detail li {
+  font-size: 12px;
+  /* border-bottom: 1px solid black; */
+}
+
+.reversed {
+  flex-direction: row-reverse;
+  font-size: 12px;
+}
+
+/* footer */
+footer {
+  margin-top: 32px;
+  text-align: center;
+  /* background: #333; */
+  /* padding:64px 0; */
+}
+
+small {
+  font-size: 14px;
+  /* color: white; */
+}
+
+/* team */
+
+.team h2 {
+  margin: 32px 0;
+}
+
+.team p {
+  line-height: 1.6;
+}

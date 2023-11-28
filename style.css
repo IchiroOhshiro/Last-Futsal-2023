@@ -13,6 +13,7 @@ h2 {
 h3 {
   margin: 0;
   /* font-weight: normal; */
+  font-size: 16px;
 }
 
 h4 {
@@ -72,6 +73,14 @@ header img {
 }
 
 /* hero */
+.hero li {
+  line-height: 2;
+}
+
+.hero h4 {
+  border-bottom: 1px solid black;
+  font-size: 12px;
+}
 
 .hero {
   display: flex;
@@ -95,7 +104,9 @@ header img {
 
 .reversed {
   flex-direction: row-reverse;
-  font-size: 12px;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 2;
 }
 
 /* footer */

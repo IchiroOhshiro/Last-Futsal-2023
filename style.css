@@ -23,11 +23,6 @@ p {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 a:hover {
   cursor: pointer;
   background:black;

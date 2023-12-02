@@ -54,6 +54,7 @@ body {
   background-image: url(futsal.webp);
 }
 
+
 img {
   vertical-align: bottom;
 }
@@ -63,10 +64,33 @@ img {
   width: calc(100% - 64px / 2);
   margin: 0 auto;
   box-sizing: border-box;
-  padding-top: 32px;
+  padding: 32px 0;
+  /* padding-bottom: 32px; */
+}
+
+button {
+  border-top: 4px solid #d8dcdc;
+  border-right: 4px solid #666;
+  border-bottom: 4px solid #333;
+  border-left: 4px solid #868888;
+  border-radius: 8px;
+  background-image: -webkit-linear-gradient(135deg, #333 0%, #868888 20%, #d8dcdc 34%, white 53%, #666 100%);
+  background-image: linear-gradient(-45deg, #333 0%, #868888 20%, #d8dcdc 34%, white 53%, #666 100%);
+  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
+  position: fixed;
+  top: 16px;
+  right: 16px;
 }
 
 
+button:hover {
+  text-shadow: 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff;
+}
+
+.container a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* header */
 
@@ -170,9 +194,33 @@ small {
 }
 
 .study {
-    display: grid;
-    grid-template-rows: auto 1fr auto ;
-    grid-template-columns: 100%;
-    min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 100vh;
+}
 
+/* schedule */
+.shedules header {
+  /* background: skyblue; */
+  display:flex;
+  justify-content: center;
+
+}
+
+.schedule h2 {
+  text-align: center;
+  margin: 16px;
+}
+
+.schedule h3 {
+  margin: 8px 0;
+}
+
+.schedules div {
+  padding-bottom: 32px;
+}
+
+.schedule ul {
+  margin:8px 0;
 }

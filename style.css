@@ -156,18 +156,6 @@ small {
   color: rgb(228, 54, 159);
 }
 
-/* divide */
-.divide {
-  padding: 32px 0;
-}
-
-.divide footer {
-  margin-top: 32px;
-  padding:0;
-  background: none;
-  color: black;
-}
-
 /* final */
 
 .final {

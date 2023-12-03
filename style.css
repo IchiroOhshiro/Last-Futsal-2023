@@ -72,7 +72,12 @@ img {
   text-decoration: none;
 }
 
+.container h3 {
+  font-size: 12px;
+}
+
 button {
+  all:unset;
   border-top: 4px solid #d8dcdc;
   border-right: 4px solid #666;
   border-bottom: 4px solid #333;
@@ -87,9 +92,9 @@ button {
 }
 
 
-button:hover {
+/* button:hover {
   text-shadow: 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff, 0 0 7px #fff;
-}
+} */
 
 
 /* header */
@@ -141,9 +146,13 @@ header img {
 
 .reversed {
   flex-direction: row-reverse;
-  font-size: 9px;
-  font-weight: bold;
+  /* font-size: 9px; */
+  /* font-weight: bold; */
   line-height: 2;
+}
+
+.reversed p {
+  font-size: 8px;
 }
 
 .reversed img {

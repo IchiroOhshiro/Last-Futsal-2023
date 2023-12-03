@@ -68,6 +68,10 @@ img {
   /* padding-bottom: 32px; */
 }
 
+.container a {
+  text-decoration: none;
+}
+
 button {
   border-top: 4px solid #d8dcdc;
   border-right: 4px solid #666;
@@ -207,6 +211,7 @@ small {
 .schedule h2 {
   text-align: center;
   margin-top: 16px;
+  font-size: 14px;
 }
 
 .schedule h3 {
@@ -215,7 +220,7 @@ small {
 
 .schedule h4 {
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 

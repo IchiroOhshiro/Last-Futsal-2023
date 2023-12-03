@@ -76,6 +76,10 @@ img {
   font-size: 12px;
 }
 
+.container h3 a {
+  color: blue;
+}
+
 button {
   all:unset;
   border-top: 4px solid #d8dcdc;
@@ -152,9 +156,13 @@ header img {
 }
 
 .reversed p {
-  font-size: 8px;
+  font-size: 6px;
 }
 
+.reversed a {
+  color: blue;
+  font-weight: bold;
+}
 .reversed img {
   padding-top: 8px;
 }

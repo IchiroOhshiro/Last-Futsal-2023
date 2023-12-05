@@ -44,7 +44,7 @@ a:hover {
 
 ul {
   list-style: none;
-  margin: 4px 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -120,51 +120,38 @@ header img {
 /* hero */
 
 .hero h4 {
-  border-bottom: 1px solid black;
-  font-size: 12px;
+  text-align: center;
+  margin: 8px;
 }
-
 .hero {
   display: flex;
-  gap: 16px;
-  margin-top: 32px;
-}
-
-.hero img {
-  width: 100%;
-  height: auto;
+  gap: 8px;
 }
 
 .hero div {
   flex: 1;
 }
 
-.hero li {
-  font-size: 8px;
+.hero img {
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
 }
 
-.detail li {
-  font-size: 8px;
-  /* border-bottom: 1px solid black; */
+.hero li {
+  font-size: 10px;
 }
 
 .reversed {
   flex-direction: row-reverse;
-  /* font-size: 9px; */
-  /* font-weight: bold; */
-  line-height: 2;
 }
 
-.reversed p {
-  font-size: 6px;
-}
-
-.reversed a {
-  color: blue;
+.organize li {
   font-weight: bold;
 }
-.reversed img {
-  padding-top: 8px;
+
+.organize a {
+  color: blue;
 }
 
 /* footer */
@@ -222,7 +209,6 @@ small {
   /* background: skyblue; */
   display:flex;
   justify-content: center;
-
 }
 
 .schedule h2 {
@@ -271,6 +257,7 @@ small {
 .schedule li {
   border-top: 1px solid black;
   font-size: 10px;
+  padding-top: 8px;
 }
 
 .schedule h6 {

@@ -121,11 +121,13 @@ header img {
 
 .hero h4 {
   text-align: center;
-  margin: 8px;
+  font-size: 12px;
 }
+
 .hero {
   display: flex;
   gap: 8px;
+  margin-top:16px;
 }
 
 .hero div {
@@ -135,11 +137,10 @@ header img {
 .hero img {
   width: 100%;
   height: auto;
-  margin-top: 16px;
 }
 
 .hero li {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 .reversed {
@@ -188,6 +189,11 @@ small {
 
 .final {
   margin-top: 16px;
+}
+
+.final a {
+  color:blue;
+  font-weight: bold;
 }
 
 .final p {

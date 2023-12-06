@@ -137,10 +137,11 @@ header img {
 .hero img {
   width: 100%;
   height: auto;
+  margin-top: 8px;
 }
 
 .hero li {
-  font-size: 8px;
+  font-size: 6px;
 }
 
 .reversed {
@@ -280,5 +281,5 @@ small {
 }
 
 .adjust {
-  font-size: 10px;
+  font-size: 8px;
 }

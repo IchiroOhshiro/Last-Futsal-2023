@@ -126,7 +126,7 @@ header img {
 
 .hero {
   display: flex;
-  gap: 32px;
+  gap: 16px;
   margin-top:16px;
 }
 
@@ -138,12 +138,13 @@ header img {
 .hero img {
   width: 100%;
   height: auto;
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .hero li {
   font-size: 7px;
   line-height: 1.6;
+  margin-top:4px;
 }
 
 .reversed {

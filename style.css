@@ -126,7 +126,7 @@ header img {
 
 .hero {
   display: flex;
-  gap: 8px;
+  gap: 32px;
   margin-top:16px;
 }
 
@@ -147,6 +147,7 @@ header img {
   flex-direction: row-reverse;
 }
 
+/* orgaize */
 .organize li {
   font-weight: bold;
 }
@@ -278,3 +279,6 @@ small {
   font-size: 8px;
 }
 
+.adjust {
+  font-size: 10px;
+}
